@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "bookName": "Book 1",
+        "title": "Title 1",
+        "price": 0,
+        "category": "Fiction",
+        "owner":"sarah@gmail.com",
+        "imageLink": "https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvam9iNjgyLTI0NS1wLnBuZw.png"
+    },
+    {
+        "id": 2,
+        "bookName": "Book 2",
+        "title": "Title 2",
+        "price": 12.99,
+        "category": "Non-fiction",
+        "owner":"random@email",
+        "imageLink": "https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvam9iNjgyLTI0NS1wLnBuZw.png"
+    },
+    {
+        "id": 3,
+        "bookName": "Book 3",
+        "title": "Title 3",
+        "price": 9.99,
+        "category": "Mystery",
+        "owner":"ajay@gmail.com",
+        "imageLink": "https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvam9iNjgyLTI0NS1wLnBuZw.png"
+    },
+    {
+        "id": 4,
+        "bookName": "Book 4",
+        "title": "Title 4",
+        "price":0,
+        "category": "Fiction",
+        "owner":"sarah@gmail.com",
+        "imageLink": "https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvam9iNjgyLTI0NS1wLnBuZw.png"
+    },
+    {
+        "id": 5,
+        "bookName": "Book 5",
+        "title": "Title 5",
+        "price": 12.99,
+        "category": "Non-fiction",
+        "owner":"vivek@gmail.com",
+        "imageLink": "https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvam9iNjgyLTI0NS1wLnBuZw.png"
+    },
+    {
+        "id": 6,
+        "bookName": "Book 6",
+        "title": "Title 6",
+        "price": 9.99,
+        "category": "Mystery",
+        "owner":"ajay@gmail.com",
+        "imageLink": "https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvam9iNjgyLTI0NS1wLnBuZw.png"
+    },
+    {
+        "id": 7,
+        "bookName": "Book 7",
+        "title": "Title 7",
+        "price": 0,
+        "category": "Fiction",
+        "owner":"logan@gmail.com",
+        "imageLink": "https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvam9iNjgyLTI0NS1wLnBuZw.png"
+    },
+    {
+        "id": 8,
+        "bookName": "Book 8",
+        "title": "Title 8",
+        "price": 0,
+        "category": "Non-fiction",
+        "owner":"logan@gmail.com",
+        "imageLink": "https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvam9iNjgyLTI0NS1wLnBuZw.png"
+    },
+    {
+        "id": 9,
+        "bookName": "Book 9",
+        "title": "Title 9",
+        "price": 9.99,
+        "category": "Mystery",
+        "owner":"ajay@gmail.com",
+        "imageLink": "https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvam9iNjgyLTI0NS1wLnBuZw.png"
+    },
+    {
+        "id": 10,
+        "bookName": "Book 10",
+        "title": "Title 10",
+        "price": 0,
+        "category": "Fiction",
+        "owner":"sarah@gmail.com",
+        "imageLink": "https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvam9iNjgyLTI0NS1wLnBuZw.png"
+    }
+    
+]
