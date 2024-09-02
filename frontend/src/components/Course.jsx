@@ -1,8 +1,10 @@
 import React from 'react'
 import Cards from './Cards'
+// import { useAuth } from '../contexts/AuthProvider';
 
 function Course({ data,deln }) {
     console.log("deln",deln);
+    
     return (
         <>
             <div className='max-w-screen-2xl container mx-auto md:px-20 px-4 py-2'>

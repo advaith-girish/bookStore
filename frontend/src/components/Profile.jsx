@@ -5,19 +5,37 @@ import Course from './Course'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
 import AddBook from './AddBook'
+import Bookings from './Bookings'
 
 const Profile = () => {
-  const [books, setBooks] = useState([]);
-  useEffect(() => {
-    getBooks();
-  }, []);
 
   let user = JSON.parse(localStorage.getItem("User"));
   let username = user.name;
   let userid=user.id;
 
-  console.log("name", user.id);
+  const [books, setBooks] = useState([]);
+  const [bookings, setBookings] = useState(null);
 
+  useEffect(() => {
+    getBooks();
+    getBookings();
+  }, []);
+
+  
+    const getBookings = async () => {
+        try {
+            await axios.get(`http://localhost:3000/books/getbookings/${userid}`)
+                .then(res => {
+                    setBookings(res.data);
+                    console.log("Fetched bookings",bookings);
+                });
+        }
+        catch (err) {
+            console.log(err);
+        }
+    }
+
+  // console.log("name", user.id);
   const getBooks = async () => {
     try {
       await axios.get('http://localhost:3000/books')
@@ -47,6 +65,7 @@ const Profile = () => {
               <button className='mt-2 bg-pink-700 text-white rounded-lg px-4 py-2 hover:bg-pink-800 duration-300'>Back</button>
             </Link>
             <AddBook user={user} />
+            <Bookings bookings={bookings}/>
           </div>
         </div>
         <h1 className='text-center text-3xl font-bold py-8 mt-4'>My Books</h1>

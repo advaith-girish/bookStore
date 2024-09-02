@@ -6,7 +6,7 @@ const bookSchema=new mongoose.Schema({
     user:String,
     mode: {
         type: String,
-        enum: ['Sell','Rent'], // Add your allowed categories here
+        enum: ['Sell','Rent'],
         required: true
     },
     imageLink:String
